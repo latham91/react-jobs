@@ -5,7 +5,7 @@ import BrandLogo from "./BrandLogo";
 export default function Footer() {
   return (
     <footer className="bg-[#23272F] text-slate-200">
-      <div className="grid justify-between grid-cols-3 p-5 py-12 mx-auto max-w-7xl">
+      <div className="grid justify-between grid-cols-1 gap-5 p-5 py-12 mx-auto text-center md:text-left md:grid-cols-3 max-w-7xl">
         <div className="flex flex-col gap-5">
           <h6 className="text-2xl font-extrabold">React Jobs</h6>
           <ul className="space-y-1 text-lg">
@@ -32,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col items-center gap-5 md:items-start">
           <h6 className="text-2xl font-extrabold">Policies</h6>
           <ul className="space-y-1 text-lg">
             <li>Terms & Conditions</li>
@@ -47,7 +47,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col items-center gap-5 md:items-start">
           <BrandLogo />
           <p>Find your dream job or the perfect candidate for your company today.</p>
           <Link to="https://www.react-jobs.com" className="font-bold tracking-wider hover:underline">
