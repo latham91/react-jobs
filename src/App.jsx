@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import JobsPage from "./pages/JobsPage";
 import { useEffect, useState } from "react";
 import SingleJobPage from "./pages/SingleJobPage";
+import AddJobPage from "./pages/AddJobPage";
 
 export default function App() {
   const [latestJobs, setLatestJobs] = useState([]);
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/" element={<HomePage latestJobs={latestJobs} />} />
         <Route path="/jobs" element={<JobsPage />} />
         <Route path="/job/:id" element={<SingleJobPage />} />
+        <Route path="/add" element={<AddJobPage />} />
       </Routes>
     </>
   );
