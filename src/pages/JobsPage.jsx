@@ -1,3 +1,4 @@
+import JobCard from "../components/JobCard";
 import SideBar from "../components/SideBar";
 
 export default function JobsPage() {
@@ -7,8 +8,16 @@ export default function JobsPage() {
         <h1 className="text-5xl font-extrabold">Find your dream job</h1>
         <p className="text-lg">Your dream career is waiting for you.</p>
       </div>
-      <section className="px-5 py-10 mx-auto max-w-7xl">
+      <section className="flex gap-5 px-5 py-10 mx-auto max-w-7xl">
         <SideBar />
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+          <JobCard />
+        </div>
       </section>
     </main>
   );
