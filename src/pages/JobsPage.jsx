@@ -7,7 +7,7 @@ export default function JobsPage() {
         <h1 className="text-5xl font-extrabold">Find your dream job</h1>
         <p className="text-lg">Your dream career is waiting for you.</p>
       </div>
-      <section className="p-5 mx-auto max-w-7xl">
+      <section className="px-5 py-10 mx-auto max-w-7xl">
         <SideBar />
       </section>
     </main>
