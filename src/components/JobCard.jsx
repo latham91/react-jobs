@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export default function JobCard({ job }) {
   return (
-    <div className="flex flex-col gap-5 p-5 bg-white rounded-lg shadow-md">
+    <div className="flex flex-col gap-5 p-5 bg-white rounded-lg shadow-md h-fit">
       <div className="flex flex-col gap-3">
         <div className="flex items-center justify-between text-sm">
           <div className="flex items-center gap-1">
