@@ -1,7 +1,8 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 import { Search, MapPin } from "lucide-react";
 
-export default function SideBar() {
+export default function SideBar({ jobs, filter }) {
   const [searchFilter, setSearchFilter] = useState({
     search: "",
     location: "all",
@@ -39,12 +40,12 @@ export default function SideBar() {
           name="location"
           className="w-full p-2 pl-10 font-light text-gray-400 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent"
         >
-          <option value="all">Choose a location</option>
-          <option value="remote">Remote</option>
-          <option value="hybrid">Hybrid</option>
-          <option value="liverpool">Liverpool</option>
-          <option value="london">London</option>
-          <option value="manchester">Manchester</option>
+          <option value="all">All locations</option>
+          {jobs.map((job) => (
+            <option key={job.id} value={job.location}>
+              {job.location}
+            </option>
+          ))}
         </select>
         <MapPin className="absolute flex items-center inset-y-9 left-2 text-slate-500" />
       </div>
@@ -89,8 +90,15 @@ export default function SideBar() {
         </div>
       </div>
       <div>
-        <button className="btn text-white bg-[#0A7EA4] w-full">Search</button>
+        <button onClick={() => filter(searchFilter)} className="btn text-white bg-[#0A7EA4] w-full">
+          Search
+        </button>
       </div>
     </div>
   );
 }
+
+SideBar.propTypes = {
+  jobs: PropTypes.array.isRequired,
+  filter: PropTypes.func.isRequired,
+};

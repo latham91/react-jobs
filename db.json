@@ -1,0 +1,79 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "job_title": "Junior Front-end Developer",
+      "company": "Microsoft Corporation",
+      "location": "Preston, UK",
+      "location_type": "Full-time - Remote",
+      "salary_min": 25000,
+      "salary_max": 33000,
+      "salary_type": "Yearly",
+      "currency": "$",
+      "description": "We are looking for a Junior Front-end Developer to join our team. You will be responsible for developing and maintaining our web applications. You will work closely with our design team to implement new features and improve the user experience. You will also be responsible for writing clean, maintainable code and ensuring that our applications are secure and performant.",
+      "essential_skills": ["HTML", "CSS", "JavaScript", "React"],
+      "desirable_skills": ["Node.js", "Express", "MongoDB", "GraphQL"],
+      "experience": 0
+    },
+    {
+      "id": 2,
+      "job_title": "Junior React.js Developer",
+      "company": "Tech Startup",
+      "location": "San Francisco, CA",
+      "location_type": "Full-time - On-site",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "salary_type": "Yearly",
+      "currency": "$",
+      "description": "We are seeking a Junior React.js Developer to join our fast-growing team. You will collaborate with senior developers to build and maintain web applications using React.js. You should have a solid understanding of HTML, CSS, and JavaScript. Experience with Redux and RESTful APIs is a plus.",
+      "essential_skills": ["HTML", "CSS", "JavaScript", "React"],
+      "desirable_skills": ["Redux", "RESTful APIs"],
+      "experience": 1
+    },
+    {
+      "id": 3,
+      "job_title": "Entry-level React.js Developer",
+      "company": "E-commerce Company",
+      "location": "New York, NY",
+      "location_type": "Full-time - Remote",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "salary_type": "Yearly",
+      "currency": "$",
+      "description": "We are looking for an entry-level React.js Developer to join our development team. You will work on building and maintaining responsive web applications using React.js. Strong knowledge of HTML, CSS, and JavaScript is required. Familiarity with Git and RESTful APIs is a plus.",
+      "essential_skills": ["HTML", "CSS", "JavaScript", "React"],
+      "desirable_skills": ["Git", "RESTful APIs"],
+      "experience": 1
+    },
+    {
+      "id": 4,
+      "job_title": "Junior Front-end Engineer (React.js)",
+      "company": "Software Company",
+      "location": "Seattle, WA",
+      "location_type": "Full-time - On-site",
+      "salary_min": 45000,
+      "salary_max": 55000,
+      "salary_type": "Yearly",
+      "currency": "$",
+      "description": "We are seeking a Junior Front-end Engineer with expertise in React.js to join our team. You will collaborate with designers and back-end developers to create user-friendly web applications. Proficiency in HTML, CSS, and JavaScript is required. Experience with TypeScript and UI/UX design principles is a plus.",
+      "essential_skills": ["HTML", "CSS", "JavaScript", "React"],
+      "desirable_skills": ["TypeScript", "UI/UX Design"],
+      "experience": 2
+    },
+    {
+      "id": 5,
+      "job_title": "Entry-level React.js Developer",
+      "company": "Tech Company",
+      "location": "Austin, TX",
+      "location_type": "Full-time - Remote",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "salary_type": "Yearly",
+      "currency": "$",
+      "description": "We are looking for an entry-level React.js Developer to join our development team. You will work on building and maintaining web applications using React.js. Strong knowledge of HTML, CSS, and JavaScript is required. Familiarity with Git and RESTful APIs is a plus.",
+      "essential_skills": ["HTML", "CSS", "JavaScript", "React"],
+      "desirable_skills": ["Git", "RESTful APIs"],
+      "experience": 1
+    }
+  ]
+}
