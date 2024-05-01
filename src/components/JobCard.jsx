@@ -17,10 +17,18 @@ export default function JobCard({ job }) {
           </div>
         </div>
         <h2 className="text-sm font-medium">{job.company}</h2>
-        <h3 className="text-xl font-bold text-slate-800">{job.job_title}</h3>
+        <Link to={`/job/${job.id}`}>
+          <h3 className="text-xl font-bold text-slate-800">{job.job_title}</h3>
+        </Link>
       </div>
       <div className="flex flex-col gap-2">
         <p className="line-clamp-3">{job.description}</p>
+        <div className="text-sm">
+          Skills:{" "}
+          {job.essential_skills.length > 5
+            ? job.essential_skills.slice(0, 5).join(", ") + ` +${job.essential_skills.length - 5} more`
+            : job.essential_skills.join(", ")}
+        </div>
         <Link to="/job/1" className="text-blue-600 hover:underline">
           Read more
         </Link>
@@ -31,7 +39,7 @@ export default function JobCard({ job }) {
         }${job.salary_max.toLocaleString()} / ${job.salary_type}`}</span>
       </div>
       <div>
-        <Link to="/job/1">
+        <Link to={`/job/${job.id}`}>
           <button className="px-5 py-2 text-white rounded-md bg-slate-800">Apply Now</button>
         </Link>
       </div>
