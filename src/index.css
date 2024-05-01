@@ -12,4 +12,5 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  @apply bg-slate-200;
 }

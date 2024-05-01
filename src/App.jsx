@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import JobsPage from "./pages/JobsPage";
 import { useEffect, useState } from "react";
+import SingleJobPage from "./pages/SingleJobPage";
 
 export default function App() {
   const [latestJobs, setLatestJobs] = useState([]);
@@ -30,6 +31,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage latestJobs={latestJobs} />} />
         <Route path="/jobs" element={<JobsPage />} />
+        <Route path="/job/:id" element={<SingleJobPage />} />
       </Routes>
     </>
   );
