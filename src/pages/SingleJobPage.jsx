@@ -11,7 +11,9 @@ export default function SingleJobPage() {
       </div>
       <section className="flex gap-5 px-5 py-10 mx-auto max-w-7xl justify-evenly">
         <div className="p-5 h-fit space-y-6 bg-white border-2 border-dashed rounded-md shadow-md w-[420px] border-slate-800/20 flex-1">
-          <h3 className="text-2xl font-bold text-slate-600">Job Description</h3>
+          <h3 className="text-2xl font-bold text-slate-600">
+            Job Description - <span className="text-lg font-light">1st May 2024</span>
+          </h3>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At, enim beatae repellendus eaque deserunt
             asperiores! Magnam nulla nostrum, rerum ipsum voluptatum eius numquam, eaque explicabo nesciunt cum, in
