@@ -53,6 +53,7 @@ export default function Footer() {
           <Link to="https://www.react-jobs.com" className="font-bold tracking-wider hover:underline">
             www.react-jobs.com
           </Link>
+          <span className="text-sm text-slate-500">&copy; 2024 - React Jobs - All rights reserved</span>
         </div>
       </div>
     </footer>
