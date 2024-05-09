@@ -93,7 +93,7 @@ export default function SingleJobPage() {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37729.24713331111!2d-2.738350946066369!3d53.77029971673136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0ccb0b7b3c4d%3A0xd68703fb79b28721!2sPreston!5e0!3m2!1sen!2suk!4v1714596340532!5m2!1sen!2suk"
               style={{ border: 0 }}
-              loading="lazy"
+              loading="eager"
               referrerPolicy="no-referrer-when-downgrade"
               className="w-full h-64"
             ></iframe>
